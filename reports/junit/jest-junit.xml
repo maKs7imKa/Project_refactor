@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="24" failures="0" errors="0" time="2.444">
+  <testsuite name="Database configuration" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:36" time="0.347" tests="1">
+    <testcase classname="Database configuration should create Sequelize instance with correct parameters" name="Database configuration should create Sequelize instance with correct parameters" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="API Routes" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:36" time="0.335" tests="3">
+    <testcase classname="API Routes GET /api/dishes должен возвращать список блюд" name="API Routes GET /api/dishes должен возвращать список блюд" time="0.083">
+    </testcase>
+    <testcase classname="API Routes GET /api/dishes/:id должен возвращать блюдо по ID" name="API Routes GET /api/dishes/:id должен возвращать блюдо по ID" time="0.014">
+    </testcase>
+    <testcase classname="API Routes GET /api/dishes/:id должен возвращать 404 для несуществующего ID" name="API Routes GET /api/dishes/:id должен возвращать 404 для несуществующего ID" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="Auth Controller" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:36" time="0.061" tests="1">
+    <testcase classname="Auth Controller Auth routes should be testable" name="Auth Controller Auth routes should be testable" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Application Components Summary" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:36" time="0.078" tests="1">
+    <testcase classname="Application Components Summary Проверка наличия основных компонентов приложения" name="Application Components Summary Проверка наличия основных компонентов приложения" time="0.033">
+    </testcase>
+  </testsuite>
+  <testsuite name="Order Model" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:37" time="0.359" tests="2">
+    <testcase classname="Order Model Order model should be defined" name="Order Model Order model should be defined" time="0.314">
+    </testcase>
+    <testcase classname="Order Model Order model should have basic CRUD methods" name="Order Model Order model should have basic CRUD methods" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:37" time="0.041" tests="1">
+    <testcase classname=" hello world!" name=" hello world!" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:37" time="0.044" tests="1">
+    <testcase classname=" hello world!" name=" hello world!" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Auth Middleware" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:37" time="0.061" tests="4">
+    <testcase classname="Auth Middleware isAuthenticated должен вызвать next() для аутентифицированных пользователей" name="Auth Middleware isAuthenticated должен вызвать next() для аутентифицированных пользователей" time="0.004">
+    </testcase>
+    <testcase classname="Auth Middleware isAuthenticated должен перенаправить на /login для неаутентифицированных пользователей" name="Auth Middleware isAuthenticated должен перенаправить на /login для неаутентифицированных пользователей" time="0.002">
+    </testcase>
+    <testcase classname="Auth Middleware isAdmin должен вызвать next() для администраторов" name="Auth Middleware isAdmin должен вызвать next() для администраторов" time="0.003">
+    </testcase>
+    <testcase classname="Auth Middleware isAdmin должен вернуть 403 для обычных пользователей" name="Auth Middleware isAdmin должен вернуть 403 для обычных пользователей" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Index Routes" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:37" time="0.269" tests="1">
+    <testcase classname="Index Routes GET / route should be defined" name="Index Routes GET / route should be defined" time="0.185">
+    </testcase>
+  </testsuite>
+  <testsuite name="Booking Controller" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:37" time="0.14" tests="2">
+    <testcase classname="Booking Controller Booking functionality Booking controller should exist or have a fallback" name="Booking Controller Booking functionality Booking controller should exist or have a fallback" time="0.095">
+    </testcase>
+    <testcase classname="Booking Controller Booking functionality Booking controller methods should be callable" name="Booking Controller Booking functionality Booking controller methods should be callable" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Admin Controller" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:38" time="0.202" tests="2">
+    <testcase classname="Admin Controller updateOrderStatus should be a function" name="Admin Controller updateOrderStatus should be a function" time="0.001">
+    </testcase>
+    <testcase classname="Admin Controller getOrders should render orders page" name="Admin Controller getOrders should render orders page" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="User Model" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:38" time="0.132" tests="3">
+    <testcase classname="User Model User model should be defined" name="User Model User model should be defined" time="0.088">
+    </testcase>
+    <testcase classname="User Model User model should have basic query methods" name="User Model User model should have basic query methods" time="0.001">
+    </testcase>
+    <testcase classname="User Model User.findOne should return a user when called with email" name="User Model User.findOne should return a user when called with email" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dish Model" errors="0" failures="0" skipped="0" timestamp="2025-04-08T13:46:38" time="0.113" tests="2">
+    <testcase classname="Dish Model Dish model should be defined" name="Dish Model Dish model should be defined" time="0.072">
+    </testcase>
+    <testcase classname="Dish Model Dish model should have basic query methods" name="Dish Model Dish model should have basic query methods" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

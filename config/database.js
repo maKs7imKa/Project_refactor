@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
 // Налаштування підключення до бази даних MySQL
-const sequelize = new Sequelize('restaurant', 'root', '2005', {
+const sequelize = new Sequelize('refactor', 'root', '2005', {
   host: 'localhost',
   dialect: 'mysql',
   logging: false // Add this line

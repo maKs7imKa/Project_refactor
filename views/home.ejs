@@ -175,7 +175,8 @@
             <button class="carousel-btn next-btn">❯</button>
         </div>
         <script>
-            document.addEventListener("DOMContentLoaded", () => {
+            document.addEventListener("DOMContentLoaded", (e) => {
+                e.preventDefault();
                 const track = document.querySelector(".carousel-track");
                 const prevBtn = document.querySelector(".prev-btn");
                 const nextBtn = document.querySelector(".next-btn");
