@@ -1,0 +1,1 @@
+ 2webX‚hr4.vscode/coverage/lcov-report/config/database.js.html

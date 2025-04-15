@@ -1,0 +1,7 @@
+organization=maks7imka
+projectKey=maKs7imKa_Project_refactor
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.61662
+dashboardUrl=https://sonarcloud.io/dashboard?id=maKs7imKa_Project_refactor
+ceTaskId=AZYWCjWK7AClUGJ_IFN6
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZYWCjWK7AClUGJ_IFN6

@@ -1,0 +1,1 @@
+ 2jsXXhr0.vscode/coverage/lcov-report/block-navigation.js

@@ -1,0 +1,1 @@
+ 2jsonXhr$.vscode/coverage/coverage-final.json

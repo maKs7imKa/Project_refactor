@@ -1,0 +1,1 @@
+ 2webX÷hr@.vscode/coverage/lcov-report/controllers/adminController.js.html

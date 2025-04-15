@@ -1,0 +1,32 @@
+# Локальні залежності та кеші
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Середовище розробки
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Файли операційної системи
+*.bak
+*.tmp
+*.temp
+
+# Збірка та вихідні файли
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Конфігураційні файли
+.env
+.env.local
+.env.*.local

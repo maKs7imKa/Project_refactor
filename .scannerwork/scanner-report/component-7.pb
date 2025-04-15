@@ -1,0 +1,1 @@
+ 2webXthr..vscode/coverage/lcov-report/config/index.html

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\models\order.test.js">
+    <testCase name="Order Model Order model should be defined" duration="312"/>
+    <testCase name="Order Model Order model should have basic CRUD methods" duration="1"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\routes\api.test.js">
+    <testCase name="API Routes GET /api/dishes должен возвращать список блюд" duration="91"/>
+    <testCase name="API Routes GET /api/dishes/:id должен возвращать блюдо по ID" duration="14"/>
+    <testCase name="API Routes GET /api/dishes/:id должен возвращать 404 для несуществующего ID" duration="13"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\routes\index.test.js">
+    <testCase name="Index Routes GET / route should be defined" duration="102"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\controllers\adminController.test.js">
+    <testCase name="Admin Controller updateOrderStatus should be a function" duration="1"/>
+    <testCase name="Admin Controller getOrders should render orders page" duration="3"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\controllers\bookingController.test.js">
+    <testCase name="Booking Controller Booking functionality Booking controller should exist or have a fallback" duration="85"/>
+    <testCase name="Booking Controller Booking functionality Booking controller methods should be callable" duration="3"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\models\user.test.js">
+    <testCase name="User Model User model should be defined" duration="79"/>
+    <testCase name="User Model User model should have basic query methods" duration="1"/>
+    <testCase name="User Model User.findOne should return a user when called with email" duration="1"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\models\dish.test.js">
+    <testCase name="Dish Model Dish model should be defined" duration="70"/>
+    <testCase name="Dish Model Dish model should have basic query methods" duration="1"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\summary.test.js">
+    <testCase name="Application Components Summary Проверка наличия основных компонентов приложения" duration="34"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\middleware\auth.test.js">
+    <testCase name="Auth Middleware isAuthenticated должен вызвать next() для аутентифицированных пользователей" duration="7"/>
+    <testCase name="Auth Middleware isAuthenticated должен перенаправить на /login для неаутентифицированных пользователей" duration="2"/>
+    <testCase name="Auth Middleware isAdmin должен вызвать next() для администраторов" duration="2"/>
+    <testCase name="Auth Middleware isAdmin должен вернуть 403 для обычных пользователей" duration="3"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\controllers\authController.test.js">
+    <testCase name="Auth Controller Auth routes should be testable" duration="4"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\config\database.test.js">
+    <testCase name="Database configuration should create Sequelize instance with correct parameters" duration="3"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\controllers\indexController.test.js">
+    <testCase name="hello world!" duration="1"/>
+  </file>
+  <file path="D:\Аналіз та рефакторинг коду\Project\original_code\P\__tests__\sample.test.js">
+    <testCase name="hello world!" duration="1"/>
+  </file>
+</testExecutions>

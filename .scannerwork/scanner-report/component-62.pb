@@ -1,0 +1,1 @@
+> 2xmlXMhrreports/junit/jest-junit.xml
