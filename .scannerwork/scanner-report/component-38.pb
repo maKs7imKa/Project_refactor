@@ -1,1 +1,1 @@
-& 2jsXhrmiddleware/isAuthenticated.js
+& 2jsXDhrroutes/booking.js

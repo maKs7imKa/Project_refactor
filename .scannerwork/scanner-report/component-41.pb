@@ -1,1 +1,1 @@
-) 2jsX!hrmodels/Inventory.js
+) 2jsXhrscripts/addAdmin.js

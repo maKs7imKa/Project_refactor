@@ -1,1 +1,1 @@
- 2webX°hr'.vscode/coverage/lcov-report/index.html
+ 2jsX!hrmodels/Dish.js

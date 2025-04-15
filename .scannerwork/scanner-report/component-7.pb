@@ -1,1 +1,1 @@
- 2webXthr..vscode/coverage/lcov-report/config/index.html
+ 2jsXhrcontrollers/indexController.js

@@ -1,1 +1,1 @@
- 2webXthr..vscode/coverage/lcov-report/routes/index.html
+ 2cssXêhrpublic/admin_panel.css

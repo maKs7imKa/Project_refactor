@@ -24,7 +24,7 @@ $
  
 msbuild_version16.11.2.50704
  
-peak_used_heap_byte	268747776
+peak_used_heap_byte	219619840
 
 scanner_type
 ScannerNpm

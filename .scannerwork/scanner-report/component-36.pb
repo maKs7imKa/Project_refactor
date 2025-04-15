@@ -1,1 +1,1 @@
-$ 2jsXhrcontrollers/orderController.js
+$ 2jsXÊhrroutes/admin.js

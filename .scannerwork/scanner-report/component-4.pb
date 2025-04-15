@@ -1,1 +1,1 @@
- 2cssXáhr%.vscode/coverage/lcov-report/base.css
+ 2jsXhrconfig/database.js

@@ -1,0 +1,1 @@
+: (2jsX!hr!__tests__/config/database.test.js

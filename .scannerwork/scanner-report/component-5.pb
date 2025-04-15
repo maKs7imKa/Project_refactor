@@ -1,1 +1,1 @@
- 2jsXXhr0.vscode/coverage/lcov-report/block-navigation.js
+ 2jsX·hrcontrollers/adminController.js

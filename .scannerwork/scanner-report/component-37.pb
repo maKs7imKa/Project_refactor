@@ -1,1 +1,1 @@
-% 2jsXhrmiddleware/isAdmin.js
+% 2jsXMhrroutes/auth.js

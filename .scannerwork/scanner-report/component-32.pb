@@ -1,1 +1,1 @@
-  2jsXhrconfig/database.js
+  2cssX¸hrpublic/profile.css

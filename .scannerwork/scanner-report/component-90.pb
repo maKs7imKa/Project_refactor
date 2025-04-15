@@ -1,1 +1,0 @@
-Z (2jsXhr-__tests__/controllers/indexController.test.js

@@ -1,52 +1,22 @@
-// models/Reservation.js
-const { Sequelize, DataTypes } = require("sequelize");
-const sequelize = require("../config/database"); // підключення до бази даних
+const sequelize = require('./config/database');
+// Імпортуємо всі моделі
+require('./models/User');
+require('./models/Session');
+require('./models/Review');
+require('./models/Reservation');
+require('./models/Order');
+require('./models/Inventory');
+require('./models/Dish');
+require('./models/CartItem');
 
-const Reservation = sequelize.define(
-    "Reservation",
-    {
-        id: {
-            type: DataTypes.INTEGER,
-            primaryKey: true,
-            autoIncrement: true,
-        },
-        userId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
-        customerName: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        tableNumber: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
-        date: {
-            type: DataTypes.DATE,
-            allowNull: false,
-        },
-        time: {
-            type: DataTypes.TIME,
-            allowNull: false,
-        },
-        people: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
-        status: {
-            type: DataTypes.STRING,
-            allowNull: false,
-            defaultValue: "Pending",
-        },
-        preOrder: {
-            type: DataTypes.TEXT,
-            allowNull: true,
-        },
-    },
-    {
-        timestamps: true,
+(async () => {
+    try {
+        // Синхронізація моделей з базою даних
+        await sequelize.sync({ force: true }); // Використовуйте { alter: true } для оновлення без видалення
+        console.log('Всі таблиці успішно створені!');
+    } catch (error) {
+        console.error('Помилка при створенні таблиць:', error);
+    } finally {
+        await sequelize.close();
     }
-);
-
-module.exports = Reservation;
+})();

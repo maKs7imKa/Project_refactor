@@ -1,1 +1,1 @@
-> 2xmlXMhrreports/junit/jest-junit.xml
+> (2jsXhr-__tests__/controllers/indexController.test.js

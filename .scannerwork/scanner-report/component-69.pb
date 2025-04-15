@@ -1,1 +1,1 @@
-E 2jsXhrscripts/addAdmin.js
+E (2jsXhr__tests__/sample.test.js

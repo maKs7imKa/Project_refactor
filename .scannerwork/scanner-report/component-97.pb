@@ -1,1 +1,0 @@
-a (2jsXhr__tests__/sample.test.js

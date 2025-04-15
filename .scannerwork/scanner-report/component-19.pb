@@ -1,1 +1,1 @@
- 2webXëhr1.vscode/coverage/lcov-report/models/Order.js.html
+ 2jsonX¢-hrpackage-lock.json

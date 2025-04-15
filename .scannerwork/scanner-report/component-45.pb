@@ -1,1 +1,1 @@
-- 2jsXhrmodels/Session.js
+- 2xmlXhrtest-report.xml

@@ -1,1 +1,1 @@
- 2jsonXhr$.vscode/coverage/coverage-final.json
+ 2jsXZhrapp.js

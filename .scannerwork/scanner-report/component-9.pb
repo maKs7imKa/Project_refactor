@@ -1,1 +1,1 @@
-	 2webXÖhrB.vscode/coverage/lcov-report/controllers/bookingController.js.html
+	 2jsXhrmiddleware/isAdmin.js

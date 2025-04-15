@@ -1,1 +1,1 @@
- 2webXthr2.vscode/coverage/lcov-report/middleware/index.html
+ 2jsX!hrmodels/Inventory.js

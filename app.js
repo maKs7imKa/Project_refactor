@@ -87,3 +87,4 @@ async function hashPassword(password) {
 
 // npm run test:coverage
 // npm run sonar
+// sonar-scanner -D"sonar.login=51960d5ae1e516f57e42d0b0ec4e120de0400bfc"

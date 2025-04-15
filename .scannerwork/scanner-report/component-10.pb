@@ -1,2 +1,2 @@
 
- 2webXƒhr3.vscode/coverage/lcov-report/controllers/index.html
+ 2jsXhrmiddleware/isAuthenticated.js
