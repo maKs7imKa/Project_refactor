@@ -1,4 +1,6 @@
 # Project_refactor
+![image](https://github.com/user-attachments/assets/0c040030-b77f-493e-8263-a9fa1017503b)
+
 
 ## 📝 Документація з рефакторингу та тестування
 
