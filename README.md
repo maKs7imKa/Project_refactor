@@ -238,6 +238,8 @@
 
 ## 📊 Інтеграція з SonarQube
 ![image](https://github.com/user-attachments/assets/d273bb24-9624-477a-b9d8-2fcea4b73cb0)
+![image](https://github.com/user-attachments/assets/b9705493-bdf0-49f3-b5eb-c78d3041ec21)
+
 
 
 Проект інтегровано з SonarQube/SonarCloud для постійного контролю якості коду та виявлення проблем на ранніх етапах розробки.
